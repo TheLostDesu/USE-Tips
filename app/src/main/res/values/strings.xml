@@ -1,83 +1,117 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">USE tips</string>
-    <string name="Task_1">Task 1-3</string>
-    <string name="Task_4">Task 4</string>
-    <string name="Task_5">Task 5</string>
-    <string name="Task_6">Task 6</string>
-    <string name="Task_7">Task 7</string>
-    <string name="Task_8">Task 8</string>
-    <string name="Task_9">Task 9</string>
-    <string name="Task_10">Task 10</string>
-    <string name="Task_11">Task 11</string>
-    <string name="Task_12">Task 12</string>
-    <string name="Task_13">Task 13</string>
-    <string name="Task_14">Task 14</string>
-    <string name="Task_15">Task 15</string>
-    <string name="Task_16">Task 16</string>
-    <string name="Task_17">Task 17</string>
-    <string name="Task_18">Task 18</string>
-    <string name="Task_19">Task 19</string>
-    <string name="Task_20">Task 20</string>
-    <string name="Task_21">Task 21</string>
-    <string name="Task_22">Task 22</string>
-    <string name="Task_23">Task 23</string>
-    <string name="Task_24">Task 24</string>
-    <string name="Task_25">Task 25</string>
-    <string name="Task_26">Task 26</string>
-    <string name="app_name_RU">Помощь с ЕГЭ</string>
-    <string name="Task_1_RU">Задача 1-3</string>
-    <string name="Task_2_RU">Задача 2</string>
-    <string name="Task_3_RU">Задача 3</string>
-    <string name="Task_4_RU">Задача 4</string>
-    <string name="Task_5_RU">Задача 5</string>
-    <string name="Task_6_RU">Задача 6</string>
-    <string name="Task_7_RU">Задача 7</string>
-    <string name="Task_8_RU">Задача 8</string>
-    <string name="Task_9_RU">Задача 9</string>
-    <string name="Task_10_RU">Задача 10</string>
-    <string name="Task_11_RU">Задача 11</string>
-    <string name="Task_12_RU">Задача 12</string>
-    <string name="Task_13_RU">Задача 13</string>
-    <string name="Task_14_RU">Задача 14</string>
-    <string name="Task_15_RU">Задача 15</string>
-    <string name="Task_16_RU">Задача 16</string>
-    <string name="Task_17_RU">Задача 17</string>
-    <string name="Task_18_RU">Задача 18</string>
-    <string name="Task_19_RU">Задача 19</string>
-    <string name="Task_20_RU">Задача 20</string>
-    <string name="Task_21_RU">Задача 21</string>
-    <string name="Task_22_RU">Задача 22</string>
-    <string name="Task_23_RU">Задача 23</string>
-    <string name="Task_24_RU">Задача 24</string>
-    <string name="Task_25_RU">Задача 25</string>
-    <string name="Task_26_RU">Задача 26</string>
+    <string name="menu">На главный экран</string>
+
+    <string name="app_name">Помощь с ЕГЭ</string>
+    <string name="Task_1">Задание 1-3</string>
+    <string name="Task_2">Задание 2</string>
+    <string name="Task_3">Задание 3</string>
+    <string name="Task_4">Задание 4</string>
+    <string name="Task_5">Задание 5</string>
+    <string name="Task_6">Задание 6</string>
+    <string name="Task_7">Задание 7</string>
+    <string name="Task_8">Задание 8</string>
+    <string name="Task_9">Задание 9</string>
+    <string name="Task_10">Задание 10</string>
+    <string name="Task_11">Задание 11</string>
+    <string name="Task_12">Задание 12</string>
+    <string name="Task_13">Задание 13</string>
+    <string name="Task_14">Задание 14</string>
+    <string name="Task_15">Задание 15</string>
+    <string name="Task_16">Задание 16</string>
+    <string name="Task_17">Задание 17</string>
+    <string name="Task_18">Задание 18</string>
+    <string name="Task_19">Задание 19</string>
+    <string name="Task_20">Задание 20</string>
+    <string name="Task_21">Задание 21</string>
+    <string name="Task_22">Задание 22</string>
+    <string name="Task_23">Задание 23</string>
+    <string name="Task_24">Задание 24</string>
+    <string name="Task_25">Задание 25</string>
+    <string name="Task_26">Задание 26</string>
 
 
-    <string-array name="Task13txtRU" tools:ignore="TypographyEllipsis">
-        Для выполнения блока заданий 1-3 следует:
-        1. Внимательно прочитать предложенный текст
-        2. Заполнить пропуск подходящим по смыслу словом.
-         Обычно требуемое слово - союз.
-         Союзы бывают:
-          Соединительные(такие как и, тоже, ни...ни)
-          Противительные(такие как Но, а, однако)
-          Разделительные(Или, либо, то ли...то ли)
-          Сопоставительные(Как...Так, не только... но и)
-          Пояснительные(а именно, то есть, как-то)
-          Присоединительные(И то, а то, да и)
-         Местоимения:
-          Личные(Я, ты, мы)
-          Указательные(этот, эта, эти)
-          Вопросительные(кто, чей, что)
-          Отрицательные(никто, ничто, никакой)
-          Неопределенные(кто-то, что-то, кое-что)
-        3. Выписать или понять смысл текста.
+    <string name="Task1_3txtRU" tools:ignore="TypographyEllipsis">
+        Для выполнения блока заданий 1-3 следует:\n
+        1. Внимательно прочитать предложенный текст\n
+        2. Заполнить пропуск подходящим по смыслу словом.\n
+         Обычно требуемое слово - союз.\n
+         Союзы бывают:\n
+          Соединительные(такие как и, тоже, ни...ни)\n
+          Противительные(такие как Но, а, однако)\n
+          Разделительные(Или, либо, то ли...то ли)\n
+          Сопоставительные(Как...Так, не только... но и)\n
+          Пояснительные(а именно, то есть, как-то)\n
+          Присоединительные(И то, а то, да и)\n
+         Местоимения:\n
+          Личные(Я, ты, мы)\n
+          Указательные(этот, эта, эти)\n
+          Вопросительные(кто, чей, что)\n
+          Отрицательные(никто, ничто, никакой)\n
+          Неопределенные(кто-то, что-то, кое-что)\n
+        3. Выписать или понять смысл текста.\n
         4. Выполнить задание 1. Для этого нужно подобрать:
           Вариант ответа не противоречащий смыслу исходного текста
           Вариант ответа содержащий в себе всю важную информацию текста
-          Вариант ответа не содержащий в себе лишней информации
-
-
-
-    </string-array>
+          Вариант ответа не содержащий в себе лишней информации\n
+        5. Выполнить задание №3. Обычно подходящее по смыслу значение
+           имеет пример, подставыив который в контекст получится
+           верное по смыслу предложение.
+    </string>
+    <string name="Task4txtRU" tools:ignore="TypographyEllipsis">
+        Задание 4 - задание про ударения.\n
+        1. Ударение в иноязычных словах ставится туда куда оно ставилось изначально.\n
+        2. Большинство существительных имеют неподвижное ударение на основе.\n
+          Неподвижное ударение на окончании есть у существительных с суффиксами
+          -Ак, -Арь, -Ач, -Ич, -Ун, -ствО, -ьЁ, -изнА, -отА, -отнЯ.\n
+        3. В множественном числе И. П. у существительных окончание падает на А.\n
+        4. Особые правила:\n
+          а) На пОрты: пОрты, аэропОрты, авиапОрты\n
+          б) На вОд: газопровОд, нефтепровОд, мусоропровОд\n
+          в) на лОг: каталОг, диалОг, монолОг(исключение анАлог)\n
+          г) на мЕтр: киломЕтр, сантимЕтр\n
+          д) на зЫв: созЫв, призЫв, отзЫв(но Отзыв на что-то)\n
+          е) на Яр: школЯр, столЯр, доЯр\n
+        5. Некоторые слова с неочевидным ударением:\n
+          бАнты          анАлог            вероисповЕдание\n
+          тОрты          бухгАлтеров       новостЕй\n
+          шАрфы          граждАнство       еретИк\n
+          срЕдства       досУг\n
+          Иксы           недУг\n
+          крАны          корЫсть\n
+          кОнусы         кремЕнь\n
+          лЕкторы        лыжнЯ\n
+          пОручни        намЕрение\n
+          мЕстностей     нарОст\n
+          пОчестей       придАное\n
+          чЕлюстей       сирОты\n
+          бОроду         тамОжня\n
+          знАчимость     цепОчка\n
+          нЕдруг\n
+          нЕнависть\n
+          нОгтя\n
+          Отрочество\n
+          свЁкла\n
+          стАтуя\n
+          цЕнтнер\n
+          \n
+        В прилагательных:\n
+          1. В прилагательных на лИва ударение падает на И\n
+          2. В кратких прилагательных Ж. Р ударение падает на последний слог
+             (кроме красИва).\n
+          3. таблица:\n
+            кУхонный    оптОвый      мозаИчный\n
+            слИвовый    прожОрлива\n
+            знАчимый\n
+        В глаголах:\n
+          1) Ударение падает на Ить, Ать, Ять, ировАть\n
+          кроме: опОшлить\n
+          2) В глаголах прошедшего времени обычно падает на тот же слог, что и инфинитиве\n
+          3)У глаголов класть, красть, красться, слать, послать, отослать ударение в форме женского рода\n
+            прошедшего времени НЕ падает на окончание, а остаётся на основе\n
+          4)В глаголах, образованных от имён прилагательных, ударение чаще всего падает на -ИТЬ:\n
+          5)В возвратных глаголах ударение в форме прошедшего времени часто переходит на окончание\n
+            или суффикс (в глаголах прошедшего времени мужского рода):\n
+          6)Деепричастия часто имеют ударение на том же слоге,\n
+            что и в инфинитиве глагола, от которого они образованы\n
+    </string>
 </resources>
