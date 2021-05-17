@@ -1,5 +1,5 @@
 package com.example.myapplication;
-import android.app.Activity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -9,29 +9,30 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GestureDetectorCompat;
 
 
-public class SubActivity extends Activity {
+public class SubActivity extends AppCompatActivity {
+
+    private GestureDetectorCompat lSwipeDetector;
+
+    RelativeLayout main_layout;
+    TextView textView ;
     private static final int SWIPE_MIN_DISTANCE = 130;
     private static final int SWIPE_MAX_DISTANCE = 300;
     private static final int SWIPE_MIN_VELOCITY = 200;
-    private GestureDetectorCompat lSwipeDetector;
     int count;
-    RelativeLayout main_layout = (RelativeLayout) findViewById(R.id.constLayout);
-    main_layout.setOnTouchListener(new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-            return lSwipeDetector.onTouchEvent(event);
-        }
-    });
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.task_opis);
+
         count = getIntent().getIntExtra("key", 0);
-        TextView textView = findViewById(R.id.textView2);
         lSwipeDetector = new GestureDetectorCompat(this, new MyGestureListener());
+        main_layout = (RelativeLayout) findViewById(R.id.main_layout);
+        textView  = (TextView) findViewById(R.id.tvTxt);
         textView.setMovementMethod(new ScrollingMovementMethod());
         switch (count) {
             case 1:
@@ -40,7 +41,7 @@ public class SubActivity extends Activity {
             case 2:
                 textView.setText(getResources().getString(R.string.Task4txtRU));
                 break;
-            /*case 3:
+            case 3:
                 textView.setText(getResources().getString(R.string.Task5txtRU));
                 break;
             case 4:
@@ -50,9 +51,9 @@ public class SubActivity extends Activity {
                 textView.setText(getResources().getString(R.string.Task7txtRU));
                 break;
             case 6:
-                textView.setText(getResources().getString(R.string.Task8txtRU));
+                textView.setText(getResources().getString(R.string.Task8txtRu));
                 break;
-            case 7:
+            /*case 7:
                 textView.setText(getResources().getString(R.string.Task9txtRU));
                 break;
             case 8:
@@ -93,9 +94,28 @@ public class SubActivity extends Activity {
                 break;
             case 20:
                 textView.setText(getResources().getString(R.string.Task22txtRU));
+                break;
+            case 21:
+                textView.setText(getResources().getString(R.string.Task23txtRU));
+                break;
+            case 22:
+                textView.setText(getResources().getString(R.string.Task24txtRU));
+                break;
+            case 23:
+                textView.setText(getResources().getString(R.string.Task25txtRU));
+                break;
+            case 24:
+                textView.setText(getResources().getString(R.string.Task26txtRU));
                 break;*/
         }
+        main_layout.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return lSwipeDetector.onTouchEvent(event);
+            }
+        });
     }
+
     private class MyGestureListener extends GestureDetector.SimpleOnGestureListener{
         @Override
         public boolean onDown(MotionEvent e) {
@@ -105,18 +125,18 @@ public class SubActivity extends Activity {
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY){
             if (Math.abs(e1.getY() - e2.getY()) > SWIPE_MAX_DISTANCE)
                 return false;
-            if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_MIN_VELOCITY) {
-                if(count == 1)
-                    return false;
-                Intent intent = new Intent(SubActivity.this, SubActivity.class);
-                intent.putExtra("key", count - 1);
-                startActivity(intent);
-            }
             if (e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_MIN_VELOCITY) {
                 if(count == 24)
                     return false;
                 Intent intent = new Intent(SubActivity.this, SubActivity.class);
                 intent.putExtra("key", count + 1);
+                startActivity(intent);
+            }
+            else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_MIN_VELOCITY) {
+                if(count == 1)
+                    return false;
+                Intent intent = new Intent(SubActivity.this, SubActivity.class);
+                intent.putExtra("key", count - 1);
                 startActivity(intent);
             }
             return false;
