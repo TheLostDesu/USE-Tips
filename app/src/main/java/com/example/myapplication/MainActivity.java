@@ -229,5 +229,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button to_tasks = (Button)findViewById(R.id.ToTasks);
+        to_tasks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TaskActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -6,6 +6,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -34,6 +35,14 @@ public class SubActivity extends AppCompatActivity {
         main_layout = (RelativeLayout) findViewById(R.id.main_layout);
         textView  = (TextView) findViewById(R.id.tvTxt);
         textView.setMovementMethod(new ScrollingMovementMethod());
+        Button back = (Button) findViewById(R.id.GoBack);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SubActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
         switch (count) {
             case 1:
                 textView.setText(getResources().getString(R.string.Task1_3txtRU));
