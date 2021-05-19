@@ -62,60 +62,60 @@ public class SubActivity extends AppCompatActivity {
             case 6:
                 textView.setText(getResources().getString(R.string.Task8txtRu));
                 break;
-            /*case 7:
-                textView.setText(getResources().getString(R.string.Task9txtRU));
+            case 7:
+                textView.setText(getResources().getString(R.string.Task9txtRu));
                 break;
             case 8:
-                textView.setText(getResources().getString(R.string.Task10txtRU));
+                textView.setText(getResources().getString(R.string.Task10txtRu));
                 break;
             case 9:
-                textView.setText(getResources().getString(R.string.Task11txtRU));
+                textView.setText(getResources().getString(R.string.Task11txtRu));
                 break;
             case 10:
-                textView.setText(getResources().getString(R.string.Task12txtRU));
+                textView.setText(getResources().getString(R.string.Task12txtRu));
                 break;
             case 11:
-                textView.setText(getResources().getString(R.string.Task13txtRU));
+                textView.setText(getResources().getString(R.string.Task13txtRu));
                 break;
             case 12:
-                textView.setText(getResources().getString(R.string.Task14txtRU));
+                textView.setText(getResources().getString(R.string.Task14txtRu));
                 break;
             case 13:
-                textView.setText(getResources().getString(R.string.Task15txtRU));
+                textView.setText(getResources().getString(R.string.Task15txtRu));
                 break;
             case 14:
-                textView.setText(getResources().getString(R.string.Task16txtRU));
+                textView.setText(getResources().getString(R.string.Task16txtRu));
                 break;
             case 15:
-                textView.setText(getResources().getString(R.string.Task17txtRU));
+                textView.setText(getResources().getString(R.string.Task17txtRu));
                 break;
             case 16:
-                textView.setText(getResources().getString(R.string.Task18txtRU));
+                textView.setText(getResources().getString(R.string.Task18txtRu));
                 break;
             case 17:
-                textView.setText(getResources().getString(R.string.Task19txtRU));
+                textView.setText(getResources().getString(R.string.Task19txtRu));
                 break;
             case 18:
-                textView.setText(getResources().getString(R.string.Task20txtRU));
+                textView.setText(getResources().getString(R.string.Task20txtRu));
                 break;
             case 19:
-                textView.setText(getResources().getString(R.string.Task21txtRU));
+                textView.setText(getResources().getString(R.string.Task21txtRu));
                 break;
             case 20:
-                textView.setText(getResources().getString(R.string.Task22txtRU));
+                textView.setText(getResources().getString(R.string.Task22txtRu));
                 break;
             case 21:
-                textView.setText(getResources().getString(R.string.Task23txtRU));
+                textView.setText(getResources().getString(R.string.Task23txtRu));
                 break;
             case 22:
-                textView.setText(getResources().getString(R.string.Task24txtRU));
+                textView.setText(getResources().getString(R.string.Task24txtRu));
                 break;
             case 23:
-                textView.setText(getResources().getString(R.string.Task25txtRU));
+                textView.setText(getResources().getString(R.string.Task25txtRu));
                 break;
             case 24:
-                textView.setText(getResources().getString(R.string.Task26txtRU));
-                break;*/
+                textView.setText(getResources().getString(R.string.Task26txtRu));
+                break;
         }
         main_layout.setOnTouchListener(new View.OnTouchListener() {
             @Override

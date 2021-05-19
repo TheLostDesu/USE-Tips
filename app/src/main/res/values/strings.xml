@@ -167,4 +167,61 @@
     <string name="Task8txtRu">
         Требуется сопоставить ошибки и предложения.
     </string>
+    <string name="Task9txtRu">
+        Требуется найти чередующуюся/непроверяемую/проверяемую гласную букву в корне.
+    </string>
+    <string name="Task10txtRu">
+        Найти слова, в которых пропущена одна и та же буква в приставке.
+    </string>
+
+    <string name="Task11txtRu">
+        Найти слова, в которых пропущена одна и та же буква в суффиксе.
+    </string>
+
+    <string name="Task12txtRu">
+        Найти слова, в которых пропущена одна и та же буква в корне слова.
+    </string>
+
+    <string name="Task13txtRu">
+        Слитное/раздельное написание НЕ со словом.
+    </string>
+    <string name="Task14txtRu">
+        Слитное/раздельное написание слов.
+    </string>
+    <string name="Task15txtRu">
+        Одна/две буквы Н.
+    </string>
+    <string name="Task16txtRu">
+        Найти предложения с одной запятой.
+    </string>
+    <string name="Task17txtRu">
+        Расставить запятые(обычно около причастных/деепричастных оборотов)
+    </string>
+    <string name="Task18txtRu">
+        Запятые при вводных словах
+    </string>
+    <string name="Task19txtRu">
+        Запятые в ССП и СПП
+    </string>
+    <string name="Task20txtRu">
+        Все запятые
+    </string>
+    <string name="Task21txtRu">
+        Правила постановки запятых/тире/двоеточий.
+    </string>
+    <string name="Task22txtRu">
+        Внимательное чтение текста.
+    </string>
+    <string name="Task23txtRu">
+        Знание что такое описание/повествование/рассуждение.
+    </string>
+    <string name="Task24txtRu">
+        Синоним.
+    </string>
+    <string name="Task25txtRu">
+        Связь предложений.
+    </string>
+    <string name="Task26txtRu">
+        Приемы речи.
+    </string>
 </resources>
